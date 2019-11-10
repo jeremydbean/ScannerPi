@@ -1,0 +1,25 @@
+gr-osmosdr 0.1.4 (0.1.4) gnuradio 3.7.10
+built-in source types: file osmosdr fcd rtl rtl_tcp uhd miri hackrf bladerf rfspace airspy soapy redpitaya 
+
+FATAL: Wrong rtlsdr device index given.
+
+Trying to fill up 1 missing channel(s) with null source(s).
+This is being done to prevent the application from crashing
+due to gnuradio bug #528.
+
+Traceback (most recent call last):
+  File "./rx.py", line 836, in <module>
+    rx = rx_main()
+  File "./rx.py", line 760, in __init__
+    self.tb = p25_rx_block(self.options)
+  File "./rx.py", line 186, in __init__
+    self.open_usrp()
+  File "./rx.py", line 687, in open_usrp
+    self.__set_rx_from_osmosdr()
+  File "./rx.py", line 632, in __set_rx_from_osmosdr
+    self.__build_graph(self.src, capture_rate)
+  File "./rx.py", line 254, in __build_graph
+    symbol_rate = self.symbol_rate)
+  File "/home/pi/op25/op25/gr-op25_repeater/apps/p25_demodulator.py", line 249, in __init__
+    self.if1 = input_rate / self.decim
+ZeroDivisionError: float division by zero

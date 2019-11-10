@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/op25/op25/gr-op25_repeater/lib/ambe.c
+stdlib.h
+-
+mbelib.h
+/home/pi/op25/op25/gr-op25_repeater/lib/mbelib.h
+ambe3600x2250_const.h
+/home/pi/op25/op25/gr-op25_repeater/lib/ambe3600x2250_const.h
+ambe3600x2400_const.h
+/home/pi/op25/op25/gr-op25_repeater/lib/ambe3600x2400_const.h
+
+/home/pi/op25/op25/gr-op25_repeater/lib/ambe3600x2250_const.h
+
+/home/pi/op25/op25/gr-op25_repeater/lib/ambe3600x2400_const.h
+
+/home/pi/op25/op25/gr-op25_repeater/lib/mbelib.c
+stdlib.h
+-
+mbelib.h
+/home/pi/op25/op25/gr-op25_repeater/lib/mbelib.h
+mbelib_const.h
+/home/pi/op25/op25/gr-op25_repeater/lib/mbelib_const.h
+
+/home/pi/op25/op25/gr-op25_repeater/lib/mbelib.h
+stdio.h
+-
+math.h
+-
+
+/home/pi/op25/op25/gr-op25_repeater/lib/mbelib_const.h
+

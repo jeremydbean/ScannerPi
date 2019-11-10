@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1op25_1_1fsk4__demod__ff" kind="class" language="C++" prot="public">
+    <compoundname>gr::op25::fsk4_demod_ff</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <includes refid="fsk4__demod__ff_8h" local="no">fsk4_demod_ff.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1op25_1_1fsk4__demod__ff_1ac66fd1f1c6b3ab1f4bb621137d9256a9" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1op25_1_1fsk4__demod__ff" kindref="compound">fsk4_demod_ff</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;fsk4_demod_ff&gt; gr::op25::fsk4_demod_ff::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/op25/op25/gr-op25/include/op25/fsk4_demod_ff.h" line="40" column="1" bodyfile="/home/pi/op25/op25/gr-op25/include/op25/fsk4_demod_ff.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1op25_1_1fsk4__demod__ff_1aa0c3c0c8594f782b7804da91b75f243f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1op25_1_1fsk4__demod__ff_1ac66fd1f1c6b3ab1f4bb621137d9256a9" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::op25::fsk4_demod_ff::make</definition>
+        <argsstring>(gr::msg_queue::sptr queue, float sample_rate_Hz, float symbol_rate_Hz)</argsstring>
+        <name>make</name>
+        <param>
+          <type>gr::msg_queue::sptr</type>
+          <declname>queue</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>sample_rate_Hz</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>symbol_rate_Hz</declname>
+        </param>
+        <briefdescription>
+<para>Demodulate APCO P25 CF4M signals. </para>        </briefdescription>
+        <detaileddescription>
+<para>op25_fsk4_demod_ff is a GNU Radio block for demodulating APCO P25 CF4M signals. This class expects its input to consist of a 4 level FSK modulated baseband signal. It produces a stream of symbols.</para><para>All inputs are post FM demodulator and symbol shaping filter data is normalized before being sent to this block so these parameters should not need adjusting even when working on different signals.</para><para>Nominal levels are -3, -1, +1, and +3. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/op25/op25/gr-op25/include/op25/fsk4_demod_ff.h" line="57" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="8">
+        <label>gr::op25::fsk4_demod_ff</label>
+        <link refid="classgr_1_1op25_1_1fsk4__demod__ff"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="10">
+        <label>gr::op25::fsk4_demod_ff</label>
+        <link refid="classgr_1_1op25_1_1fsk4__demod__ff"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/pi/op25/op25/gr-op25/include/op25/fsk4_demod_ff.h" line="38" column="1" bodyfile="/home/pi/op25/op25/gr-op25/include/op25/fsk4_demod_ff.h" bodystart="37" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classgr_1_1op25_1_1fsk4__demod__ff_1aa0c3c0c8594f782b7804da91b75f243f" prot="public" virt="non-virtual"><scope>gr::op25::fsk4_demod_ff</scope><name>make</name></member>
+      <member refid="classgr_1_1op25_1_1fsk4__demod__ff_1ac66fd1f1c6b3ab1f4bb621137d9256a9" prot="public" virt="non-virtual"><scope>gr::op25::fsk4_demod_ff</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

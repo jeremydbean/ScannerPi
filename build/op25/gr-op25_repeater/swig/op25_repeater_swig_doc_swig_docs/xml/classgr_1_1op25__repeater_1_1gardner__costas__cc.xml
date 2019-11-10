@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1op25__repeater_1_1gardner__costas__cc" kind="class" language="C++" prot="public">
+    <compoundname>gr::op25_repeater::gardner_costas_cc</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <includes refid="gardner__costas__cc_8h" local="no">gardner_costas_cc.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1op25__repeater_1_1gardner__costas__cc_1af419f85d66f5fb396ed022033d706082" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1op25__repeater_1_1gardner__costas__cc" kindref="compound">gardner_costas_cc</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;gardner_costas_cc&gt; gr::op25_repeater::gardner_costas_cc::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/gardner_costas_cc.h" line="39" column="1" bodyfile="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/gardner_costas_cc.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1op25__repeater_1_1gardner__costas__cc_1a4ad7a681089da4308876a0e96ca6edaa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1op25__repeater_1_1gardner__costas__cc_1af419f85d66f5fb396ed022033d706082" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::op25_repeater::gardner_costas_cc::make</definition>
+        <argsstring>(float samples_per_symbol, float gain_mu, float gain_omega, float alpha, float beta, float max_freq, float min_freq)</argsstring>
+        <name>make</name>
+        <param>
+          <type>float</type>
+          <declname>samples_per_symbol</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>gain_mu</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>gain_omega</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>max_freq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>min_freq</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1op25__repeater_1_1gardner__costas__cc" kindref="compound">op25_repeater::gardner_costas_cc</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1op25__repeater_1_1gardner__costas__cc" kindref="compound">op25_repeater::gardner_costas_cc</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1op25__repeater_1_1gardner__costas__cc_1a4ad7a681089da4308876a0e96ca6edaa" kindref="member">op25_repeater::gardner_costas_cc::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/gardner_costas_cc.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1op25__repeater_1_1gardner__costas__cc_1a45f8261e8804a6a9715f31a1b6355f60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::op25_repeater::gardner_costas_cc::set_omega</definition>
+        <argsstring>(float omega)</argsstring>
+        <name>set_omega</name>
+        <param>
+          <type>float</type>
+          <declname>omega</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/gardner_costas_cc.h" line="50" column="1" bodyfile="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/gardner_costas_cc.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1op25__repeater_1_1gardner__costas__cc_1affa239aab8cd3c4dccc19aa1222fa5ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>float</type>
+        <definition>virtual float gr::op25_repeater::gardner_costas_cc::get_freq_error</definition>
+        <argsstring>(void)</argsstring>
+        <name>get_freq_error</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/gardner_costas_cc.h" line="51" column="1" bodyfile="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/gardner_costas_cc.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1op25__repeater_1_1gardner__costas__cc_1a6759e69e718261418351bd32acb042e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::op25_repeater::gardner_costas_cc::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/gardner_costas_cc.h" line="52" column="1" bodyfile="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/gardner_costas_cc.h" bodystart="52" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="21">
+        <label>block</label>
+      </node>
+      <node id="20">
+        <label>gr::op25_repeater::gardner_costas_cc</label>
+        <link refid="classgr_1_1op25__repeater_1_1gardner__costas__cc"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="23">
+        <label>block</label>
+      </node>
+      <node id="22">
+        <label>gr::op25_repeater::gardner_costas_cc</label>
+        <link refid="classgr_1_1op25__repeater_1_1gardner__costas__cc"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/gardner_costas_cc.h" line="37" column="1" bodyfile="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/gardner_costas_cc.h" bodystart="36" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classgr_1_1op25__repeater_1_1gardner__costas__cc_1affa239aab8cd3c4dccc19aa1222fa5ca" prot="public" virt="virtual"><scope>gr::op25_repeater::gardner_costas_cc</scope><name>get_freq_error</name></member>
+      <member refid="classgr_1_1op25__repeater_1_1gardner__costas__cc_1a4ad7a681089da4308876a0e96ca6edaa" prot="public" virt="non-virtual"><scope>gr::op25_repeater::gardner_costas_cc</scope><name>make</name></member>
+      <member refid="classgr_1_1op25__repeater_1_1gardner__costas__cc_1a6759e69e718261418351bd32acb042e7" prot="public" virt="virtual"><scope>gr::op25_repeater::gardner_costas_cc</scope><name>reset</name></member>
+      <member refid="classgr_1_1op25__repeater_1_1gardner__costas__cc_1a45f8261e8804a6a9715f31a1b6355f60" prot="public" virt="virtual"><scope>gr::op25_repeater::gardner_costas_cc</scope><name>set_omega</name></member>
+      <member refid="classgr_1_1op25__repeater_1_1gardner__costas__cc_1af419f85d66f5fb396ed022033d706082" prot="public" virt="non-virtual"><scope>gr::op25_repeater::gardner_costas_cc</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

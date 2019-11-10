@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_3c03a76e95115e2a5a18f879121e0209" kind="dir">
+    <compoundname>/home/pi/op25/op25</compoundname>
+    <innerdir refid="dir_1ac84c4bca9abdf8657e0c486fd2dfa7">/home/pi/op25/op25/gr-op25_repeater</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/pi/op25/op25/"/>
+  </compounddef>
+</doxygen>

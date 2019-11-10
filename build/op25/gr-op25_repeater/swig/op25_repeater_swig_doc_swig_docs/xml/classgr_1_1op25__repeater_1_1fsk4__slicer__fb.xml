@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1op25__repeater_1_1fsk4__slicer__fb" kind="class" language="C++" prot="public">
+    <compoundname>gr::op25_repeater::fsk4_slicer_fb</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <includes refid="fsk4__slicer__fb_8h" local="no">fsk4_slicer_fb.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1op25__repeater_1_1fsk4__slicer__fb_1a670f08acca5a59abbf3ff04f9533f105" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1op25__repeater_1_1fsk4__slicer__fb" kindref="compound">fsk4_slicer_fb</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;fsk4_slicer_fb&gt; gr::op25_repeater::fsk4_slicer_fb::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/fsk4_slicer_fb.h" line="39" column="1" bodyfile="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/fsk4_slicer_fb.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1op25__repeater_1_1fsk4__slicer__fb_1abc875b26dcbf069d0b74497ab59b2e7c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1op25__repeater_1_1fsk4__slicer__fb_1a670f08acca5a59abbf3ff04f9533f105" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::op25_repeater::fsk4_slicer_fb::make</definition>
+        <argsstring>(const std::vector&lt; float &gt; &amp;slice_levels)</argsstring>
+        <name>make</name>
+        <param>
+          <type>const std::vector&lt; float &gt; &amp;</type>
+          <declname>slice_levels</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1op25__repeater_1_1fsk4__slicer__fb" kindref="compound">op25_repeater::fsk4_slicer_fb</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1op25__repeater_1_1fsk4__slicer__fb" kindref="compound">op25_repeater::fsk4_slicer_fb</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1op25__repeater_1_1fsk4__slicer__fb_1abc875b26dcbf069d0b74497ab59b2e7c" kindref="member">op25_repeater::fsk4_slicer_fb::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/fsk4_slicer_fb.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="17">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="16">
+        <label>gr::op25_repeater::fsk4_slicer_fb</label>
+        <link refid="classgr_1_1op25__repeater_1_1fsk4__slicer__fb"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="19">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="18">
+        <label>gr::op25_repeater::fsk4_slicer_fb</label>
+        <link refid="classgr_1_1op25__repeater_1_1fsk4__slicer__fb"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/fsk4_slicer_fb.h" line="37" column="1" bodyfile="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/fsk4_slicer_fb.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1op25__repeater_1_1fsk4__slicer__fb_1abc875b26dcbf069d0b74497ab59b2e7c" prot="public" virt="non-virtual"><scope>gr::op25_repeater::fsk4_slicer_fb</scope><name>make</name></member>
+      <member refid="classgr_1_1op25__repeater_1_1fsk4__slicer__fb_1a670f08acca5a59abbf3ff04f9533f105" prot="public" virt="non-virtual"><scope>gr::op25_repeater::fsk4_slicer_fb</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacegr_1_1op25__repeater" kind="namespace" language="C++">
+    <compoundname>gr::op25_repeater</compoundname>
+    <innerclass refid="classgr_1_1op25__repeater_1_1ambe__encoder__sb" prot="public">gr::op25_repeater::ambe_encoder_sb</innerclass>
+    <innerclass refid="classgr_1_1op25__repeater_1_1dmr__bs__tx__bb" prot="public">gr::op25_repeater::dmr_bs_tx_bb</innerclass>
+    <innerclass refid="classgr_1_1op25__repeater_1_1dstar__tx__sb" prot="public">gr::op25_repeater::dstar_tx_sb</innerclass>
+    <innerclass refid="classgr_1_1op25__repeater_1_1frame__assembler" prot="public">gr::op25_repeater::frame_assembler</innerclass>
+    <innerclass refid="classgr_1_1op25__repeater_1_1fsk4__slicer__fb" prot="public">gr::op25_repeater::fsk4_slicer_fb</innerclass>
+    <innerclass refid="classgr_1_1op25__repeater_1_1gardner__costas__cc" prot="public">gr::op25_repeater::gardner_costas_cc</innerclass>
+    <innerclass refid="classgr_1_1op25__repeater_1_1p25__frame__assembler" prot="public">gr::op25_repeater::p25_frame_assembler</innerclass>
+    <innerclass refid="classgr_1_1op25__repeater_1_1vocoder" prot="public">gr::op25_repeater::vocoder</innerclass>
+    <innerclass refid="classgr_1_1op25__repeater_1_1ysf__tx__sb" prot="public">gr::op25_repeater::ysf_tx_sb</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/ambe_encoder_sb.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

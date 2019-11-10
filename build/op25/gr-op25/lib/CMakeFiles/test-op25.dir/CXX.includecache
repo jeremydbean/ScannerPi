@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/op25/op25/gr-op25/lib/qa_op25.cc
+qa_op25.h
+/home/pi/op25/op25/gr-op25/lib/qa_op25.h
+
+/home/pi/op25/op25/gr-op25/lib/qa_op25.h
+gnuradio/attributes.h
+-
+cppunit/TestSuite.h
+-
+
+/home/pi/op25/op25/gr-op25/lib/test_op25.cc
+config.h
+/home/pi/op25/op25/gr-op25/lib/config.h
+cppunit/TextTestRunner.h
+-
+cppunit/XmlOutputter.h
+-
+gnuradio/unittests.h
+-
+qa_op25.h
+/home/pi/op25/op25/gr-op25/lib/qa_op25.h
+iostream
+-
+

@@ -1,0 +1,46 @@
+http://gqrx.dk/download/install-ubuntu
+
+		sudo apt-get update
+		sudo apt-get install
+
+To start using the PPA, first make sure that you do not have any other source or
+binary installation of gqrx, gnuradio or the SDR driver libraries installed. The
+following commands remove binary installations of gqrx and gnuradio, but not
+installations from source:
+
+		sudo apt-get purge --auto-remove gqrx
+		sudo apt-get purge --auto-remove gqrx-sdr
+		sudo apt-get purge --auto-remove libgnuradio*
+
+
+
+		sudo add-apt-repository -y ppa:bladerf/bladerf
+		sudo add-apt-repository -y ppa:myriadrf/drivers
+		sudo add-apt-repository -y ppa:myriadrf/gnuradio
+		sudo add-apt-repository -y ppa:gqrx/gqrx-sdr
+		sudo apt-get update
+		sudo apt-get install gqrx-sdr
+
+You can now run gqrx in the desktop menu or start it from a terminal by typing
+gqrx.
+
+		sudo add-apt-repository -y ppa:bladerf/bladerf
+		sudo add-apt-repository -y ppa:myriadrf/drivers
+		sudo add-apt-repository -y ppa:myriadrf/gnuradio
+		sudo add-apt-repository -y ppa:gqrx/gqrx-sdr
+		sudo apt-get update
+		
+		sudo apt-get install gqrx-sdr		
+
+
+It is recommended that users also install the libvolk1-bin package and run the
+volk_pro??le tool to optimize GNU Radio performance on the speci??c computer it is
+being used on.
+
+		sudo apt-get install libvolk1-bin
+		volk_profile
+		
+Wait for it to ??nish, then enjoy the performance boost :-)
+
+
+http://gqrx.dk/download/install-ubuntu

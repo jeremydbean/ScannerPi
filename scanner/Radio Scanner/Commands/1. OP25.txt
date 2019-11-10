@@ -1,0 +1,67 @@
+
+
+
+		git clone https://github.com/boatbod/op25.git
+		It will make a folder called op25
+		cd op25
+		./install.sh
+		
+		
+		sudo apt-get install gnuplot-x11
+		
+Wait a bit for it to install. It should take care of everything.
+
+Find Freqencies: 
+
+		https://www.radioreference.com/apps/db/?sid=4487
+		https://www.radioreference.com/apps/db/?ctid=415#cid-10185
+
+Now go back to your system and get in the correct directory. Check your path for accuracy.
+
+		cd /home/pi/op25/op25/gr-op25_repeater/apps
+		
+		
+Now try this command IF YOU ARE SETTING UP A DIFFERENT FREQUENCY FOR YOUR TOWN MAKE SURE TO ADJUST THE FREQUENCY IN THE COMMAND.  I ALSO FOUND I CAN DO THIS WITH AN ADALM-PLUTOSDR BY CHANGING THE –ARGS TO ‘plutosdr’. 
+
+		./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 857.2125e6 -o 25000 -q 0
+
+If you get a bunch of errors remove the last part of the command (-q -2)  It works as above on my V3 SDR but not on my NESDR Smart. You may also have to adjust the -2 number depending on your individual SDR.  Have fun with that.  To further illustrate my SDR v3 works at -2, my NESDR Smart works with the -q -2 removed (0), and my Adalm-Pluto works at -q 5 (positive 5).  You just have to play around until you get your signal centered on the plot.
+
+As per the pic below ………If where it says 857.262500/812.262500 is all zeros then you need to keep adjusting the -q number.  On that screen you can start GNUPLOT by pressing the number 1 key.  Keep messing with the q number until the signal is centered on the plot.
+
+		COBB COUNTY CONTROL CHANNEL: 857.2125  (Alternate) 856.2125
+		MARIETTA CONTROL CHANNEL: 851.1625
+		
+		
+		cd /home/john/op25/op25/gr-op25_repeater/apps
+		./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 857.2125e6 -o 25000 -q 0
+
+		
+There won’t be any sound but take note of the NAC. In my case it is 0xfc We’re going to need that. 
+Copy your NAC for your frequency. YOU WILL ONLY GET THE CORRECT NAC IF YOU ARE TUNED TO THE CONTROL CHANNEL YOU WANT TO MONITOR.
+
+Now you should still be in the apps directory. Double click on the file named trunk.tsv and update with your NAC, Modulation, and NTAC file name.  Add NTAC file name to the same folder.  (atl.tsv)
+
+
+		cd /op25/op25/gr-op25_repeater/apps
+		./rx.py --args 'rtl' -N 'LNA:47' -S 2400000 -f 857.2625e6 -o 25000 -q 0 -T trunk.tsv -V -2 -U 2> stderr.2
+
+
+And now when there is a transmission on the Control Channel, OP25 will track it to the correct frequency and
+even display the talk group that is currently active.
+Now lets make a little script 􀃒le so we aren’t forever typing long commands.
+
+		cd
+		cd op25
+		sudo nano op25.sh
+
+#! /bin/sh
+cd /home/john/op25/op25/gr-op25_repeater/apps
+./rx.py –args ‘rtl’ -N ‘LNA:47’ -S 2400000 -f 857.2125e6 -o 25000 -q 0 -T trunk.tsv -V -2 -U 2> stderr.2
+
+
+Hit CTL + the X key then Y to save the file.
+
+
+		sudo chmod +x op25.sh
+		./op25.sh

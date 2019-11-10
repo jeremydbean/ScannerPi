@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1op25__repeater_1_1vocoder" kind="class" language="C++" prot="public">
+    <compoundname>gr::op25_repeater::vocoder</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <includes refid="vocoder_8h" local="no">vocoder.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1op25__repeater_1_1vocoder_1a09ee355aee2a1fad26f3c0da428c6923" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1op25__repeater_1_1vocoder" kindref="compound">vocoder</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;vocoder&gt; gr::op25_repeater::vocoder::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/vocoder.h" line="39" column="1" bodyfile="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/vocoder.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1op25__repeater_1_1vocoder_1ab32fe82410f5cfe089acd6f7e6e0297f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1op25__repeater_1_1vocoder_1a09ee355aee2a1fad26f3c0da428c6923" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::op25_repeater::vocoder::make</definition>
+        <argsstring>(bool encode_flag, bool verbose_flag, int stretch_amt, char *udp_host, int udp_port, bool raw_vectors_flag)</argsstring>
+        <name>make</name>
+        <param>
+          <type>bool</type>
+          <declname>encode_flag</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>verbose_flag</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>stretch_amt</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>udp_host</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>udp_port</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>raw_vectors_flag</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1op25__repeater_1_1vocoder" kindref="compound">op25_repeater::vocoder</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1op25__repeater_1_1vocoder" kindref="compound">op25_repeater::vocoder</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1op25__repeater_1_1vocoder_1ab32fe82410f5cfe089acd6f7e6e0297f" kindref="member">op25_repeater::vocoder::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/vocoder.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1op25__repeater_1_1vocoder_1adfc47899508f9c72a3584a6def978fbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::op25_repeater::vocoder::set_gain_adjust</definition>
+        <argsstring>(float gain_adjust)</argsstring>
+        <name>set_gain_adjust</name>
+        <param>
+          <type>float</type>
+          <declname>gain_adjust</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/vocoder.h" line="50" column="1" bodyfile="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/vocoder.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="29">
+        <label>block</label>
+      </node>
+      <node id="28">
+        <label>gr::op25_repeater::vocoder</label>
+        <link refid="classgr_1_1op25__repeater_1_1vocoder"/>
+        <childnode refid="29" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="31">
+        <label>block</label>
+      </node>
+      <node id="30">
+        <label>gr::op25_repeater::vocoder</label>
+        <link refid="classgr_1_1op25__repeater_1_1vocoder"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/vocoder.h" line="37" column="1" bodyfile="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/vocoder.h" bodystart="36" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classgr_1_1op25__repeater_1_1vocoder_1ab32fe82410f5cfe089acd6f7e6e0297f" prot="public" virt="non-virtual"><scope>gr::op25_repeater::vocoder</scope><name>make</name></member>
+      <member refid="classgr_1_1op25__repeater_1_1vocoder_1adfc47899508f9c72a3584a6def978fbc" prot="public" virt="virtual"><scope>gr::op25_repeater::vocoder</scope><name>set_gain_adjust</name></member>
+      <member refid="classgr_1_1op25__repeater_1_1vocoder_1a09ee355aee2a1fad26f3c0da428c6923" prot="public" virt="non-virtual"><scope>gr::op25_repeater::vocoder</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1op25__repeater_1_1frame__assembler" kind="class" language="C++" prot="public">
+    <compoundname>gr::op25_repeater::frame_assembler</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <includes refid="frame__assembler_8h" local="no">frame_assembler.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1op25__repeater_1_1frame__assembler_1a8e59481fad0954f6c3ecc40af2bb822e" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1op25__repeater_1_1frame__assembler" kindref="compound">frame_assembler</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;frame_assembler&gt; gr::op25_repeater::frame_assembler::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/frame_assembler.h" line="40" column="1" bodyfile="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/frame_assembler.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1op25__repeater_1_1frame__assembler_1a664fb5f8f725c790a36c7c4e67c63bb2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1op25__repeater_1_1frame__assembler_1a8e59481fad0954f6c3ecc40af2bb822e" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::op25_repeater::frame_assembler::make</definition>
+        <argsstring>(const char *options, int debug, gr::msg_queue::sptr queue)</argsstring>
+        <name>make</name>
+        <param>
+          <type>const char *</type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>debug</declname>
+        </param>
+        <param>
+          <type>gr::msg_queue::sptr</type>
+          <declname>queue</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1op25__repeater_1_1frame__assembler" kindref="compound">op25_repeater::frame_assembler</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1op25__repeater_1_1frame__assembler" kindref="compound">op25_repeater::frame_assembler</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1op25__repeater_1_1frame__assembler_1a664fb5f8f725c790a36c7c4e67c63bb2" kindref="member">op25_repeater::frame_assembler::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/frame_assembler.h" line="50" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1op25__repeater_1_1frame__assembler_1adebd735cdb2b0a12f8bdba752c59a8fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::op25_repeater::frame_assembler::set_xormask</definition>
+        <argsstring>(const char *p)</argsstring>
+        <name>set_xormask</name>
+        <param>
+          <type>const char *</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/frame_assembler.h" line="51" column="1" bodyfile="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/frame_assembler.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1op25__repeater_1_1frame__assembler_1a5950ac1ebc1b8d668a1fd82f3185d050" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::op25_repeater::frame_assembler::set_slotid</definition>
+        <argsstring>(int slotid)</argsstring>
+        <name>set_slotid</name>
+        <param>
+          <type>int</type>
+          <declname>slotid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/frame_assembler.h" line="52" column="1" bodyfile="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/frame_assembler.h" bodystart="52" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="13">
+        <label>block</label>
+      </node>
+      <node id="12">
+        <label>gr::op25_repeater::frame_assembler</label>
+        <link refid="classgr_1_1op25__repeater_1_1frame__assembler"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="15">
+        <label>block</label>
+      </node>
+      <node id="14">
+        <label>gr::op25_repeater::frame_assembler</label>
+        <link refid="classgr_1_1op25__repeater_1_1frame__assembler"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/frame_assembler.h" line="38" column="1" bodyfile="/home/pi/op25/op25/gr-op25_repeater/include/op25_repeater/frame_assembler.h" bodystart="37" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classgr_1_1op25__repeater_1_1frame__assembler_1a664fb5f8f725c790a36c7c4e67c63bb2" prot="public" virt="non-virtual"><scope>gr::op25_repeater::frame_assembler</scope><name>make</name></member>
+      <member refid="classgr_1_1op25__repeater_1_1frame__assembler_1a5950ac1ebc1b8d668a1fd82f3185d050" prot="public" virt="virtual"><scope>gr::op25_repeater::frame_assembler</scope><name>set_slotid</name></member>
+      <member refid="classgr_1_1op25__repeater_1_1frame__assembler_1adebd735cdb2b0a12f8bdba752c59a8fa" prot="public" virt="virtual"><scope>gr::op25_repeater::frame_assembler</scope><name>set_xormask</name></member>
+      <member refid="classgr_1_1op25__repeater_1_1frame__assembler_1a8e59481fad0954f6c3ecc40af2bb822e" prot="public" virt="non-virtual"><scope>gr::op25_repeater::frame_assembler</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

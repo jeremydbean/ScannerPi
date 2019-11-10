@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1op25_1_1pcap__source__b" kind="class" language="C++" prot="public">
+    <compoundname>gr::op25::pcap_source_b</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <includes refid="pcap__source__b_8h" local="no">pcap_source_b.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1op25_1_1pcap__source__b_1a16acf04f5be983397eba12bfa0d81a0b" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1op25_1_1pcap__source__b" kindref="compound">pcap_source_b</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;pcap_source_b&gt; gr::op25::pcap_source_b::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/op25/op25/gr-op25/include/op25/pcap_source_b.h" line="38" column="1" bodyfile="/home/pi/op25/op25/gr-op25/include/op25/pcap_source_b.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1op25_1_1pcap__source__b_1a8ee6be99b9cb249f484fadd9c3a03290" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1op25_1_1pcap__source__b_1a16acf04f5be983397eba12bfa0d81a0b" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::op25::pcap_source_b::make</definition>
+        <argsstring>(const char *path, float delay)</argsstring>
+        <name>make</name>
+        <param>
+          <type>const char *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>delay</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1op25_1_1pcap__source__b" kindref="compound">op25::pcap_source_b</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1op25_1_1pcap__source__b" kindref="compound">op25::pcap_source_b</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1op25_1_1pcap__source__b_1a8ee6be99b9cb249f484fadd9c3a03290" kindref="member">op25::pcap_source_b::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/pi/op25/op25/gr-op25/include/op25/pcap_source_b.h" line="48" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Read PCAP from a file and produce a stream of octets. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="17">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="16">
+        <label>gr::op25::pcap_source_b</label>
+        <link refid="classgr_1_1op25_1_1pcap__source__b"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="19">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="18">
+        <label>gr::op25::pcap_source_b</label>
+        <link refid="classgr_1_1op25_1_1pcap__source__b"/>
+        <childnode refid="19" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/pi/op25/op25/gr-op25/include/op25/pcap_source_b.h" line="36" column="1" bodyfile="/home/pi/op25/op25/gr-op25/include/op25/pcap_source_b.h" bodystart="35" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classgr_1_1op25_1_1pcap__source__b_1a8ee6be99b9cb249f484fadd9c3a03290" prot="public" virt="non-virtual"><scope>gr::op25::pcap_source_b</scope><name>make</name></member>
+      <member refid="classgr_1_1op25_1_1pcap__source__b_1a16acf04f5be983397eba12bfa0d81a0b" prot="public" virt="non-virtual"><scope>gr::op25::pcap_source_b</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

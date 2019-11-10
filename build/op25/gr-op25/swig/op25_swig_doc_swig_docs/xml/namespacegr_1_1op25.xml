@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacegr_1_1op25" kind="namespace" language="C++">
+    <compoundname>gr::op25</compoundname>
+    <innerclass refid="classgr_1_1op25_1_1decoder__bf" prot="public">gr::op25::decoder_bf</innerclass>
+    <innerclass refid="classgr_1_1op25_1_1decoder__ff" prot="public">gr::op25::decoder_ff</innerclass>
+    <innerclass refid="classgr_1_1op25_1_1fsk4__demod__ff" prot="public">gr::op25::fsk4_demod_ff</innerclass>
+    <innerclass refid="classgr_1_1op25_1_1fsk4__slicer__fb" prot="public">gr::op25::fsk4_slicer_fb</innerclass>
+    <innerclass refid="classgr_1_1op25_1_1pcap__source__b" prot="public">gr::op25::pcap_source_b</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/pi/op25/op25/gr-op25/include/op25/decoder_bf.h" line="30" column="1"/>
+  </compounddef>
+</doxygen>
